@@ -1,0 +1,106 @@
+.dashboard {
+  height: 100%;
+  width: 100wh;
+}
+.top_header {
+  background-color: white;
+  border-bottom: 1px solid #f4f5f8;
+  height: 2.1em;
+}
+.controller {
+  margin-top: 0.3em;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3%;
+  width: max-content;
+  background-color: white;
+  border: 1px solid #dfe1e4;
+  border-radius: 0.3em;
+  padding: 0.2em 0.2em;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#display {
+  width: 50vw;
+  margin-left: 20px;
+}
+
+.icons {
+  margin: 0 0 0 0;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.subDisplay {
+  z-index: 1000;
+  margin-left: 3%;
+  border: 1px solid #dfe1e4;
+  padding: 10px;
+  border-radius: 0.4em;
+  width: max-content;
+  background-color: white;
+  position: absolute;
+  margin-top: 5px;
+  color: black;
+  background-color: white;
+}
+
+.select_id {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 0 0 0;
+  margin-right: 5vw;
+  width: max-content;
+  padding: 2px;
+  color: #65676e;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+.head {
+  margin-left: 6px;
+  margin: 0 0 0 0;
+  margin-right: 2px;
+  width: max-content;
+  color: rgb(40, 38, 38);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid #dfe1e4;
+  border-radius: 0.4em;
+  padding: 0.25em 0.5em;
+  padding-right: 2em;
+  font-size: 0.85rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+}
+
+.ticket_view {
+  display: flex;
+  gap: 2em;
+  height: 90%;
+  padding-left: 2.3em;
+  overflow-x: auto;
+  background-color: #82838645;
+  padding-top: 3rem;
+  padding-right: 1.5rem;
+  padding-bottom: 5rem;
+}
